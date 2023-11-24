@@ -44,7 +44,8 @@ class DiffRIRGANS2Model(SRGANModel):
         else:
             self.model_Es1 = self.net_g_S1.module.E
 
-        self.pixel_unshuffle = nn.PixelUnshuffle(opt["scale"])
+        self.pixel_unshuffle = nn.PixelUnshuffle(4)
+        self.pixel_unshuffle = nn.PixelUnshufflev2(2)
         if self.is_train:
             self.encoder_iter = opt["train"]["encoder_iter"]
             self.lr_encoder = opt["train"]["lr_encoder"]
