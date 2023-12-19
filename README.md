@@ -14,6 +14,7 @@ The DiffRIR is proposed in ["LLMGA: Multimodal Large Language Model based Genera
 
 ## News
 [2023.12.19]   🔥 We release [pretrained models](https://drive.google.com/drive/folders/18FWpDCE9z3vS9hEvezxROzTz5hwozRiz?usp=drive_link) for DiffRIR.
+[2023.11.19]   🔥 We release all training and inference codes of DiffRIR.
 
 ## Abstract
 We propose a reference-based restoration network (DiffRIR) to alleviate texture, brightness, and contrast disparities between generated and preserved regions during image editing, such as inpainting and outpainting.
