@@ -7,10 +7,8 @@ The DiffRIR is proposed in ["LLMGA: Multimodal Large Language Model based Genera
 <a href="https://llmga.github.io/"><img src="https://img.shields.io/badge/Project-Page-Green"></a>
 <a href='https://llmga.github.io/'><img src='https://img.shields.io/badge/Project-Demo-violet'></a>
 <a href="https://arxiv.org/pdf/2311.16500.pdf"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
-<a href='https://huggingface.co/binxia'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
-<a href='https://huggingface.co/binxia'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
 
-[Paper](https://arxiv.org/pdf/2303.09472.pdf) | [Project Page](https://github.com/Zj-BinXia/DiffIR) | [pretrained models](https://drive.google.com/drive/folders/10miVILiopE414GyaSZM3EFAZITeY9q0p?usp=sharing)
+[Paper](https://arxiv.org/pdf/2311.16500.pdf) | [Project Page](https://github.com/Zj-BinXia/DiffRIR) | [pretrained models](https://drive.google.com/drive/folders/18FWpDCE9z3vS9hEvezxROzTz5hwozRiz?usp=drive_link)
 
 ## News
 [2023.12.19]   🔥 We release [pretrained models](https://drive.google.com/drive/folders/18FWpDCE9z3vS9hEvezxROzTz5hwozRiz?usp=drive_link) for DiffRIR.
