@@ -20,7 +20,7 @@ We propose a reference-based restoration network (DiffRIR) to alleviate texture,
 ## Results
 
 <details>
-<summary><strong>Inpainting</strong> (click to expand) </summary>
+<summary><strong>Restoration for Inpainting</strong> (click to expand) </summary>
 <img src = "figs/restoration-res.png"> 
 </details>
 
