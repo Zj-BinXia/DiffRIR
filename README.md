@@ -115,7 +115,16 @@ python3  inference_diffir.py --im_path PathtoLR --res_path ./outputs --model_pat
 python3  inference_diffir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto1xModel --scale 1
 ```
 
-
+## Citation
+If you find this repo useful for your research, please consider citing the paper
+```
+@article{xia2023llmga,
+  title={LLMGA: Multimodal Large Language Model based Generation Assistant},
+  author={Xia, Bin and Wang, Shiyin, and Tao, Yingfan and Wang, Yitong and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2311.16500},
+  year={2023}
+}
+```
 
 
 
