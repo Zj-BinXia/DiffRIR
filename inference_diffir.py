@@ -10,7 +10,7 @@ from basicsr.utils import  img2tensor
 from torch.utils import data as data
 import cv2
 from basicsr.utils.img_util import tensor2img
-from DiffIR.archs.S2_arch import DiffIRS2
+from DiffRIR.archs.S2_arch import DiffRIRS2
 from basicsr.utils import  img2tensor
 import argparse
 from torch.nn import functional as F
