@@ -108,11 +108,11 @@ sh train_DiffRIRS2_GANv2.sh
 Download the pre-trained [model]() and place it in `./experiments/`
 
 ```
-python3  inference_diffir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto4xModel --scale 4
+python3  inference_diffrir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto4xModel --scale 4
 
-python3  inference_diffir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto2xModel --scale 2
+python3  inference_diffrir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto2xModel --scale 2
 
-python3  inference_diffir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto1xModel --scale 1
+python3  inference_diffrir.py --im_path PathtoLR --res_path ./outputs --model_path Pathto1xModel --scale 1
 ```
 
 ## Citation
