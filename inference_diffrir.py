@@ -35,7 +35,7 @@ def pad_test(lq,scale):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--scale', type=int, default=1)
-    parser.add_argument('--model_path', type=str, default='./experiments/train_DiffIRGANS2_x1/models/net_g_latest.pth')
+    parser.add_argument('--model_path', type=str, default='./experiments/train_DiffRIRGANS2_x1/models/net_g_latest.pth')
     parser.add_argument('--im_path', type=str, default='/mnt/bn/xiabinpaint/CVPR2024v3/test_sr_1/sd_output')
     parser.add_argument('--mask_path', type=str, default='/mnt/bn/xiabinpaint/CVPR2024v3/test_sr_1/mask')
     parser.add_argument('--gt_path', type=str, default='/mnt/bn/inpainting-bytenas-lq/xiabin/Place2/test')
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     os.makedirs(args.res_path, exist_ok=True)
-    model = DiffIRS2( n_encoder_res= 9, dim= 64, scale=args.scale,num_blocks= [13,1,1,1],num_refinement_blocks= 13,heads= [1,2,4,8], ffn_expansion_factor= 2.2,LayerNorm_type= "BiasFree")
+    model = DiffRIRS2( n_encoder_res= 9, dim= 64, scale=args.scale,num_blocks= [13,1,1,1],num_refinement_blocks= 13,heads= [1,2,4,8], ffn_expansion_factor= 2.2,LayerNorm_type= "BiasFree")
     loadnet = torch.load(args.model_path, map_location=torch.device('cpu'))
     model.load_state_dict(loadnet['params_ema'], strict=True)
     model.cuda()
